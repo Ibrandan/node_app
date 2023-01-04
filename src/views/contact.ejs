@@ -1,0 +1,39 @@
+<%- include('partials/header') %> <%- include('partials/navigation') %>
+
+<main
+  class="vh-100 container pt-2 text-center d-flex justify-content-center align-items-center"
+>
+  <section class="w-50 card bg-dark text-center">
+    <div class="card-header">
+      <h3>Contact page</h3>
+    </div>
+    <div class="card-body text-start">
+      <form class="form-group" class="mt-4">
+        <div class="mb-3">
+          <label for="">Email</label>
+          <input
+            type="email"
+            class="form-control"
+            name=""
+            id=""
+            placeholder="Email"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="">Message</label>
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            class="form-control"
+            placeholder="Write a message"
+          ></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<%- include('partials/footer') %>
